@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body>
+    <header>
+        <h4 class="logo">My Portfolio</a></h4>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="about">
+            <h3>Hello! My name is Anh —</h3>
+            <h1>I'm an asipiring software engineer</h1>
+            <p>
+                I'm a rising junior studying Computer Science and Economics. I have always been fascinated by the scalability of tech solutions to challenging problems. I currently serve as a Research Assistant at the Dhillon Business School at my university. Here, I work with data and analyze it to solve business problems.
+
+                In my spare time, I enjoy learning new languages and frameworks for side projects. At present, I frequently work with Python, SQL, PowerBI, and C++.
+            <a class="about_btn" href="anh.vo@uleth.ca">
+                <button><i class="fa fa-briefcase"></i>  Hire me</button>
+            </a>
+            <div class="about-icons">
+                <a href="https://www.linkedin.com/in/qanh-vo/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+                <a href="https://github.com/Sabvl67" target="_blank"><i class="fa fa-github"></i></a>
+            </div>
+        </div>
+        <div class="img_about">
+            <img src="images/avatar.jpeg" alt="about img" />
+        </div>
+        <div class="wave">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#0284c7" d="M0,256L80,245.3C160,235,320,213,480,213.3C640,213,800,235,960,234.7C1120,235,1280,213,1360,202.7L1440,192V320H0Z"/>
+              </svg>              
+        </div>
+    </section>
+    <section id="education">
+        <div class="education">
+            <div class="edu-title">
+                <h1>Education</h1>
+                <span>———o———</span>
+                <p>History of Education</p>
+            </div>
+            <div class="row">
+                <div class="col1">
+                    <h2>University of Lethbridge</h2>
+                    <p class="date-edu">2021 - Present</p>
+                    <p class="desc-edu">Majoring in Computer Science</p>
+                </div>
+            </div>
+            <div class="wave">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                    <path fill="#0284c7" d="M0,224L60,202.7C120,181,240,139,360,144C480,149,600,203,720,213.3C840,224,960,192,1080,197.3C1200,203,1320,245,1380,266.7L1440,288L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path>
+                </svg>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Skills Section -->
+    <section id="skill">
+        <div class="skill">
+            <div class="skill-title">
+                <h1>Skills</h1>
+                <span>——o—o——</span>
+                <p>Programming languages and tools.</p>
+            </div>
+            <div class="flex-wrapper">
+                <div class="items flex-grid">
+                    <div class="d-col-1 t-col-4 m-col-12">
+                        <img src="images/html.png" alt="HTML" />
+                        <p>HTML</p>
+                        <p class="medium">medium</p>
+                    </div>
+                    <div class="d-col-1 t-col-4 m-col-12">
+                        <img src="images/css.png" alt="CSS" />
+                        <p>CSS</p>
+                        <p class="medium">medium</p>
+                    </div>
+                    <div class="d-col-1 t-col-4 m-col-12">
+                        <img src="images/js.png" alt="JavaScript" />
+                        <p>JavaScript</p>
+                        <p class="basic">basic</p>
+                    </div>
+                    <div class="d-col-1 t-col-4 m-col-12">
+                        <img src="images/python.png" alt="PHP" width="80" />
+                        <p>Python</p>
+                        <p class="basic">basic</p>
+                    </div>
+                    <div class="d-col-1 t-col-4 m-col-12">
+                        <img src="images/cpp.png" alt="Bootstrap" width="80" />
+                        <p>C++</p>
+                        <p class="medium">medium</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact">
+            <div class="contact-title">
+                <h1>Contact</h1>
+                <span>——o—o—o——</span>
+                <p>Contact me for more</p>
+            </div>
+            <div class="row">
+                <div class="col right">
+                    <img src="images/peep.png" alt="Contact Form" />
+                </div>
+                <div class="col left">
+                    <form action="javascript:void(0);" method="post">
+                        <label for="name">Full Name</label>
+                        <input type="text" name="name" id="name" />
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" />
+                        <label for="subject">Subject</label>
+                        <input type="text" name="subject" id="subject" />
+                        <label for="topic">Topic</label>
+                        <select name="topic" id="topic">
+                            <option value="information">Information</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="other">Others</option>
+                        </select>
+                        <div class="btn-form">
+                            <input type="submit" name="submit" id="submit" value="Submit" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="wave">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#ffafcc" d="M0,128L48,117.3C96,107,192,85,288,85.3C384,85,480,107,576,101.3C672,96,768,64,864,69.3C960,75,1056,117,1152,117.3C1248,117,1344,75,1392,53.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            </svg>
+        </div>
+        <div class="foot-content">
+            <p>Interested in me?</p>
+            <p>Follow My Social Media</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/qanh-vo/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.notion.so/anhvocs/Hey-there-I-am-Anh-043cca93427342f5896f4ec7801fa184/" target="_blank"><i class="	fa fa-user-circle-o"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll Up Button -->
+    <div id="scroll-up">
+        <a href="#about"><i class="fa fa-arrow-up"></i></a>
+    </div>
+
+    <script src="features.js" type="text/javascript"></script>
+</body>
+</html>
